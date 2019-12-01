@@ -16,7 +16,13 @@ const initialState = {
 const bookReducer = (state = initialState, action) => {
     switch (action.type) {
         case 'RATE_BOOK':
-            return state;
+            return {
+                ...state,
+                books:state.books.map(book =>
+                    (book.id !== action.payload.id) ? book:
+                     { ...book, ratings: [...book.ratings.slice(0,book.ratings.length),action.payload.rating] } 
+                )
+            }
             break;
             defualt:
             return state

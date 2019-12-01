@@ -12,7 +12,7 @@ const BookList = ({ books, rateBook }) => {
         <div className="row">
             {sortedAvgRatingBooks.map(book => {
                 return (
-                    <BookDashCard bookData={book} key={book.id} rateBook />
+                    <BookDashCard bookData={book} key={book.id} rateBook ={rateBook} />
                 )
             })}
         </div>)

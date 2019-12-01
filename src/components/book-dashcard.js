@@ -19,6 +19,7 @@ const BookDashCard = ({ bookData, rateBook }) => {
           <p className="text-sm-left card-text">
             No of ratings: {bookData.ratings.length}
           </p>
+         
           <StarRatings
             rating={Number(bookData.average_rating)}
             starRatedColor="orange"
