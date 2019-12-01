@@ -9,7 +9,6 @@ function App() {
 				<div className="header">
 					<h3>Book Rating System</h3>
 				</div>
-
 				<div className="bookList">
 					<BookDashboard />
 				</div>

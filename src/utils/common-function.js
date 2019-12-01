@@ -6,4 +6,4 @@ export const calculateBookAvgRating = book =>  {
         average_rating: book.ratings.length > 0 ? average(book.ratings): 0
      }
 };
-export const getRandomInt = max => Math.floor(Math.random() * Math.floor(max));
+export const getRandomInt = max => Math.floor(Math.random() * Math.floor(max))+1;
