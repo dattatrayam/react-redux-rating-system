@@ -18,9 +18,3 @@ function App() {
 }
 
 export default App;
-
-
-//https://github.com/dcaramelo/react-redux-simple-example
-
-
-//https://medium.com/front-end-developers/react-redux-tutorial-d1f6c6652759
